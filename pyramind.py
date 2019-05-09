@@ -1,9 +1,10 @@
+'''Python script for creating pyramind based on input number'''
 import argparse
 
 
 class Pyramind(object):
 
-    #Function to create pyramind for given number
+    '''Function to create pyramind for given number'''
     @staticmethod
     def pyramind_full(n):
         for x in range(1, 2*n):
@@ -76,6 +77,7 @@ class Pyramind(object):
 
 class Sort(object):
 
+    '''Class for sorting algorithms'''
     def merge_sort(self, unsorted_list):
         if len(unsorted_list) <= 1:
             return unsorted_list
